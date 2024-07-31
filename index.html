@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <div class="main-page">
+      <h1 class="main-page--heading">Rock, Scissor & Paper</h1>
+      <div class="image-container">
+        <button id="1" class="image-btn">
+          <img src="./images/rock.png" alt="rock" class="game-image--rock" />
+        </button>
+        <button id="2" class="image-btn">
+          <img
+            src="./images/scissors.png"
+            alt="scissor"
+            class="game-image--scissor"
+          />
+        </button>
+        <button id="3" class="image-btn">
+          <img src="./images/paper.png" alt="paper" class="game-image--paper" />
+        </button>
+      </div>
+      <div class="scoreboard-container">
+        <p class="result">You vs Computer</p>
+        <div class="scoreboard--header">
+          <h2 class="scoreboard--heading">Score Card</h2>
+          <span class="badge score-player-one">0</span
+          ><span class="badge score-player-two">0</span>
+        </div>
+        <div class="scoreboard--body">
+          <span class="badge--Player-name badge-border">Player 1</span
+          ><span class="badge--Player-name">Computer</span>
+        </div>
+      </div>
+      <footer>
+        <button class="btn btn-reset">Reset</button>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
